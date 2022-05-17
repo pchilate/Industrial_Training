@@ -22,4 +22,5 @@ def swap_case(s):
     return "".join(map(swap , s))
 
 
-print(swap_case("Hello World"))
+mystring = input("Enter your string: ")
+print(swap_case(mystring))
