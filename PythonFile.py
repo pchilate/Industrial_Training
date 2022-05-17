@@ -10,4 +10,4 @@ def runnerup(arr):
     return sorted(arr)[-2]
 
 
-print(runnerup(arr))
+print("The runnerup score is: ",runnerup(arr))
