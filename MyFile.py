@@ -11,7 +11,10 @@
 # fibo(n)
 
 def swap(c):
-    pass
+    if c.islower():
+        return c.upper()
+    else:
+        return c.lower()
 
 
 
@@ -19,4 +22,4 @@ def swap_case(s):
     return "".join(map(swap , s))
 
 
-swap_case("Hello World")
+print(swap_case("Hello World"))
