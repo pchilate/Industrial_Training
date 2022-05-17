@@ -6,4 +6,6 @@ def fibo(term):
 
         a,b = b,a+b
 
-fibo(5)
+
+n = int(input("Enter the term: "))
+fibo(n)
