@@ -1,5 +1,5 @@
-n = 5
-arr = [10,25,36,89,56]
+n = int(input("Enter the no. of scroes: "))
+arr =map(int, input("Enter all the scores: ").split())
 
 arr = list(set(arr))
 
